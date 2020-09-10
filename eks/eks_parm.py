@@ -40,9 +40,9 @@ EKS_NODE_AS_GROUP_DESIRED="1"
 EKS_NODE_INSTANCE_TYPE="t3.xlarge"
 
 #Amazon Image Id - Refer to https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html for full list.  The region is important for AMI to use.  The below is for us-east-2
-EKS_IMAGE_ID="ami-053cbe66e0033ebcf"
+EKS_IMAGE_ID="ami-06b263d6ceff0b3dd"
 
 #The IAM Key to use
-EKS_KEY_NAME="MyKeyPair10"
+EKS_KEY_NAME="lambdaTestKey"
 
 EKS_NODE_VOLUME_SIZE="20"
