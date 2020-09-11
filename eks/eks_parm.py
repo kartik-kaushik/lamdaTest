@@ -33,14 +33,14 @@ EKS_NODES_TEMPLATE="https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation
 EKS_NODES_STACK_NAME="ss-poc-nodes"
 EKS_NODE_GROUP_NAME="ss-poc-eks-nodes"
 EKS_NODE_AS_GROUP_MIN="1"
-EKS_NODE_AS_GROUP_MAX="1"
-EKS_NODE_AS_GROUP_DESIRED="1"
+EKS_NODE_AS_GROUP_MAX="2"
+EKS_NODE_AS_GROUP_DESIRED="2"
 
 #Amazon instance type - Refer to Amazon Documentation for available values
-EKS_NODE_INSTANCE_TYPE="t3.xlarge"
+EKS_NODE_INSTANCE_TYPE="m5.large"
 
 #Amazon Image Id - Refer to https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html for full list.  The region is important for AMI to use.  The below is for us-east-2
-EKS_IMAGE_ID="ami-06b263d6ceff0b3dd"
+EKS_IMAGE_ID="ami-03e6aee2536bf785f"
 
 #The IAM Key to use
 EKS_KEY_NAME="lambdaTestKey"
